@@ -64,7 +64,7 @@ int main() {
 	// for (int i = 0; i < n; i++) {
 	// 	cout << d_miles[i] << " " << d_speeds[i] << endl;
 	// }
-	
+
 	// cout << "\n";
 
 	int max_speed = r_speeds[0] - speeds[0];
