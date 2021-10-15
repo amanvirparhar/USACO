@@ -2,10 +2,11 @@
 using namespace std;
 
 ifstream fin("uddered.in");
+ofstream fout("uddered.out");
 
 int main() {
 	string alphabet, str;
-	cin >> alphabet >> str;
+	fin >> alphabet >> str;
 
 	string mod_alph = alphabet;
 	int alph_count = 1;
@@ -25,5 +26,5 @@ int main() {
 		i++;
 	}
 	
-	cout << alph_count << endl;
+	fout << alph_count << endl;
 }
