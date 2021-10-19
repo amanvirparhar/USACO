@@ -30,7 +30,6 @@ int main() {
 		bool plain_ATCG[4] = { 0 };
 
 		for (int j = 0; j < n; j++) {
-
 			if (spotty[j][i] == 'A') {
 				spotty_ATCG[0] = true;
 			} else if (spotty[j][i] == 'T') {
