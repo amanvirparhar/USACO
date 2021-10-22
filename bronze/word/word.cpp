@@ -33,6 +33,6 @@ int main() {
 	}
 
 	for (string word : words) {
-		cout << word << endl;
+		fout << word << endl;
 	}
 }
