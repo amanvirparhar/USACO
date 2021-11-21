@@ -4,12 +4,11 @@ using namespace std;
 ifstream fin("blist.in");
 ofstream fout("blist.out");
 
-int main()
-{
+int main() {
 	int n;
 	fin >> n;
 
-	int arr[1001] = {0};
+	int arr[1001] = { 0 };
 
 	for (int i = 0; i < n; i++)
 	{
